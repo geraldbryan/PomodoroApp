@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90C26042288EAAB3001D1C1A /* Break.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C26041288EAAB3001D1C1A /* Break.swift */; };
+		90C26044288EAE9A001D1C1A /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C26043288EAE9A001D1C1A /* Form.swift */; };
+		90C26046288EF744001D1C1A /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C26045288EF744001D1C1A /* Timer.swift */; };
 		90F85D4B288E92B50023D678 /* pomodoro_nanoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F85D4A288E92B50023D678 /* pomodoro_nanoApp.swift */; };
 		90F85D4D288E92B50023D678 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F85D4C288E92B50023D678 /* ContentView.swift */; };
 		90F85D4F288E92B60023D678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F85D4E288E92B60023D678 /* Assets.xcassets */; };
@@ -16,6 +19,8 @@
 		90F85D61288E92B60023D678 /* pomodoro_nanoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F85D60288E92B60023D678 /* pomodoro_nanoTests.swift */; };
 		90F85D6B288E92B60023D678 /* pomodoro_nanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F85D6A288E92B60023D678 /* pomodoro_nanoUITests.swift */; };
 		90F85D6D288E92B60023D678 /* pomodoro_nanoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F85D6C288E92B60023D678 /* pomodoro_nanoUITestsLaunchTests.swift */; };
+		90F85D7C288E94B20023D678 /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F85D7B288E94B20023D678 /* PomodoroModel.swift */; };
+		90F85D7E288E95FA0023D678 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F85D7D288E95FA0023D678 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90C26041288EAAB3001D1C1A /* Break.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Break.swift; sourceTree = "<group>"; };
+		90C26043288EAE9A001D1C1A /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		90C26045288EF744001D1C1A /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		90F85D47288E92B50023D678 /* pomodoro_nano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomodoro_nano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F85D4A288E92B50023D678 /* pomodoro_nanoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoro_nanoApp.swift; sourceTree = "<group>"; };
 		90F85D4C288E92B50023D678 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +56,8 @@
 		90F85D66288E92B60023D678 /* pomodoro_nanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomodoro_nanoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F85D6A288E92B60023D678 /* pomodoro_nanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoro_nanoUITests.swift; sourceTree = "<group>"; };
 		90F85D6C288E92B60023D678 /* pomodoro_nanoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoro_nanoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90F85D7B288E94B20023D678 /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
+		90F85D7D288E95FA0023D678 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,8 @@
 		90F85D49288E92B50023D678 /* pomodoro_nano */ = {
 			isa = PBXGroup;
 			children = (
+				90F85D7A288E94600023D678 /* ViewModel */,
+				90F85D79288E94370023D678 /* View */,
 				90F85D4A288E92B50023D678 /* pomodoro_nanoApp.swift */,
 				90F85D4C288E92B50023D678 /* ContentView.swift */,
 				90F85D4E288E92B60023D678 /* Assets.xcassets */,
@@ -131,6 +143,25 @@
 				90F85D6C288E92B60023D678 /* pomodoro_nanoUITestsLaunchTests.swift */,
 			);
 			path = pomodoro_nanoUITests;
+			sourceTree = "<group>";
+		};
+		90F85D79288E94370023D678 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90F85D7D288E95FA0023D678 /* Home.swift */,
+				90C26041288EAAB3001D1C1A /* Break.swift */,
+				90C26043288EAE9A001D1C1A /* Form.swift */,
+				90C26045288EF744001D1C1A /* Timer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90F85D7A288E94600023D678 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90F85D7B288E94B20023D678 /* PomodoroModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				90F85D57288E92B60023D678 /* pomodoro_nano.xcdatamodeld in Sources */,
+				90C26044288EAE9A001D1C1A /* Form.swift in Sources */,
 				90F85D54288E92B60023D678 /* Persistence.swift in Sources */,
+				90F85D7C288E94B20023D678 /* PomodoroModel.swift in Sources */,
 				90F85D4D288E92B50023D678 /* ContentView.swift in Sources */,
+				90F85D7E288E95FA0023D678 /* Home.swift in Sources */,
+				90C26046288EF744001D1C1A /* Timer.swift in Sources */,
+				90C26042288EAAB3001D1C1A /* Break.swift in Sources */,
 				90F85D4B288E92B50023D678 /* pomodoro_nanoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
