@@ -22,7 +22,7 @@ struct ContentView: View {
                             isPresenting = true
                         }) {
                             Image(systemName:"square.and.pencil")
-                            NavigationLink(destination: Form(), isActive: $isPresenting) { EmptyView() }
+                            NavigationLink(destination: TimerView(), isActive: $isPresenting) { EmptyView() }
                         }
                         
                         .foregroundColor(Color("Green"))

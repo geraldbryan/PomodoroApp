@@ -10,6 +10,7 @@
 		90C26042288EAAB3001D1C1A /* Break.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C26041288EAAB3001D1C1A /* Break.swift */; };
 		90C26044288EAE9A001D1C1A /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C26043288EAE9A001D1C1A /* Form.swift */; };
 		90C26046288EF744001D1C1A /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C26045288EF744001D1C1A /* Timer.swift */; };
+		90C26048289150F8001D1C1A /* tokecang_song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90C26047289150F8001D1C1A /* tokecang_song.mp3 */; };
 		90F85D4B288E92B50023D678 /* pomodoro_nanoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F85D4A288E92B50023D678 /* pomodoro_nanoApp.swift */; };
 		90F85D4D288E92B50023D678 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F85D4C288E92B50023D678 /* ContentView.swift */; };
 		90F85D4F288E92B60023D678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F85D4E288E92B60023D678 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		90C26041288EAAB3001D1C1A /* Break.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Break.swift; sourceTree = "<group>"; };
 		90C26043288EAE9A001D1C1A /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		90C26045288EF744001D1C1A /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		90C26047289150F8001D1C1A /* tokecang_song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tokecang_song.mp3; sourceTree = "<group>"; };
 		90F85D47288E92B50023D678 /* pomodoro_nano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomodoro_nano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F85D4A288E92B50023D678 /* pomodoro_nanoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoro_nanoApp.swift; sourceTree = "<group>"; };
 		90F85D4C288E92B50023D678 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		90F85D49288E92B50023D678 /* pomodoro_nano */ = {
 			isa = PBXGroup;
 			children = (
+				90C26047289150F8001D1C1A /* tokecang_song.mp3 */,
 				90F85D7A288E94600023D678 /* ViewModel */,
 				90F85D79288E94370023D678 /* View */,
 				90F85D4A288E92B50023D678 /* pomodoro_nanoApp.swift */,
@@ -268,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C26048289150F8001D1C1A /* tokecang_song.mp3 in Resources */,
 				90F85D52288E92B60023D678 /* Preview Assets.xcassets in Resources */,
 				90F85D4F288E92B60023D678 /* Assets.xcassets in Resources */,
 			);
